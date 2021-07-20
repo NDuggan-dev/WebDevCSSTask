@@ -9,7 +9,6 @@ selector {
 
 h1 {
     background-color: midnightblue;
-    font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 64px;
 }
 
@@ -18,4 +17,7 @@ div {
     height: 80px;
     background-color: red;
     color: white;
+}
+h3 {
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
