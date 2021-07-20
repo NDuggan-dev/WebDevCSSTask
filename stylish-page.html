@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stlish page</title>
+
+    <!-- link tag is used to link files into the current document, including css
+         - href points to the file
+         - rel is mandatory
+         Order of imported stylesheets is important
+    -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css"> /*overrides style */
+    <style>
+        h2 {
+            color: chartreuse; size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <a href="index.html"><h1>Home page link with External style</h1></a>
+        <h2>This is embedded style</h2>
+        <h3>Imported font and size, from external stylesheet and internal stylesheet</h3>
+        <p style="color: grey; size: 30px;">Paragraph with big font</p>
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>
